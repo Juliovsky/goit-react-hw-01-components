@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap");
+
+.profile {
+    margin: 0 auto;
+    width: 324px;
+    height: auto;
+    border: 4px solid rgb(210 218 229);
+    background-color: white;
+}
+
+body {
+    background-color: rgb(232 236 241);
+    font-family: Quicksand, sans-serif;
+}
+
+.description {
+    text-align: center;
+}
+
+.userAvatar {
+    border-radius: 50%;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+
+.name {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.tag {
+    color: grey;
+}
+
+.location {
+    color: grey;
+}
+
+.stats {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    align-items: baseline;
+    margin-bottom: 0px;
+    background-color: rgb(244 246 249);
+
+
+}
+
+li {
+    border-top: 2px solid rgb(210 218 229);
+    border-right: 2px solid rgb(210 218 229);
+    width: 108px;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+}
+
+span {
+    display: block;
+}
+
+.quantity {
+    padding-top: 5px;
+    font-weight: bold;
+}
+
+.list_item {
+    border-right: none;
+}
