@@ -2,7 +2,6 @@
   "name": "home",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://juliovsky.github.io/goit-react-hw-01-components/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
@@ -13,6 +12,7 @@
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1"
   },
+  "homepage": "https://juliovsky.github.io/goit-react-hw-01-components/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
