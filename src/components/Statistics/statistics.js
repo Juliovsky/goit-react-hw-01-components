@@ -13,7 +13,7 @@ export const Statistics = ({title, stats}) => {
                             style={{backgroundColor: choseRandomColor()}}
                         >
                             <span className={styles.label}>{label}</span>
-                            <span className="percentage">{percentage}%</span>
+                            <span>{percentage}%</span>
                         </li>
                     )
                 )}
